@@ -4,8 +4,7 @@ using System.Collections.Generic;
 
 namespace Udemy.Stack
 {
-
-    public class Stack
+   public class Stack
     {
         private readonly List<Object> _stack;
 
