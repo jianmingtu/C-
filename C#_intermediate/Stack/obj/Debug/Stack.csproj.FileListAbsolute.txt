@@ -1,0 +1,14 @@
+C:\Users\tu_jm\OneDrive\Documents\Visual Studio 2017\Projects\Stack\bin\Debug\Stack.exe.config
+C:\Users\tu_jm\OneDrive\Documents\Visual Studio 2017\Projects\Stack\bin\Debug\Stack.exe
+C:\Users\tu_jm\OneDrive\Documents\Visual Studio 2017\Projects\Stack\bin\Debug\Stack.pdb
+C:\Users\tu_jm\OneDrive\Documents\Visual Studio 2017\Projects\Stack\obj\Debug\Stack.csprojAssemblyReference.cache
+C:\Users\tu_jm\OneDrive\Documents\Visual Studio 2017\Projects\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
+C:\Users\tu_jm\OneDrive\Documents\Visual Studio 2017\Projects\Stack\obj\Debug\Stack.exe
+C:\Users\tu_jm\OneDrive\Documents\Visual Studio 2017\Projects\Stack\obj\Debug\Stack.pdb
+C:\Users\tu_jm\OneDrive\Desktop\Udemy\C#_intermediate\Stack\bin\Debug\Stack.exe.config
+C:\Users\tu_jm\OneDrive\Desktop\Udemy\C#_intermediate\Stack\bin\Debug\Stack.exe
+C:\Users\tu_jm\OneDrive\Desktop\Udemy\C#_intermediate\Stack\bin\Debug\Stack.pdb
+C:\Users\tu_jm\OneDrive\Desktop\Udemy\C#_intermediate\Stack\obj\Debug\Stack.csprojAssemblyReference.cache
+C:\Users\tu_jm\OneDrive\Desktop\Udemy\C#_intermediate\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
+C:\Users\tu_jm\OneDrive\Desktop\Udemy\C#_intermediate\Stack\obj\Debug\Stack.exe
+C:\Users\tu_jm\OneDrive\Desktop\Udemy\C#_intermediate\Stack\obj\Debug\Stack.pdb
