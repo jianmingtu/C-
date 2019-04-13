@@ -17,7 +17,7 @@ namespace Udemy.Stack
         {
             if (v == null)
             {
-                throw new InvalidOperationException("stack is empty");
+                throw new InvalidOperationException("Push: stack is empty");
             }
             _stack.Add(v);
         }
@@ -26,7 +26,7 @@ namespace Udemy.Stack
         {
             if (_stack.Count == 0)
             {
-                throw new InvalidOperationException("stack is empty");
+                throw new InvalidOperationException("Pop: stack is empty");
             }
 
             var lastIndex = _stack.Count - 1;
