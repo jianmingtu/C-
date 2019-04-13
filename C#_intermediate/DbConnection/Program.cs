@@ -11,7 +11,7 @@ namespace Udemy.DbConnection
     {
         static void Main(string[] args)
         {
-            OracleConnection oracleCon = new OracleConnection("Connect string");
+            OracleConnection oracleCon = new OracleConnection("Oracle Connect string");
             DbCommand dbCommand = new DbCommand(oracleCon, "Oracle command string");
             dbCommand.Execute();
 
