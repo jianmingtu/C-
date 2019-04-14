@@ -1,0 +1,24 @@
+# Project Title
+
+Design a workﬂow engine
+
+## Desciption
+
+Design a workﬂow engine that takes a workﬂow object and runs it. A workﬂow is a series of steps or activities. The workﬂow engine class should have one method called Run() that takes a workﬂow, and then iterates over each activity in the workﬂow and runs it. We want our workﬂows to be extensible, so we can create new activities without impacting the existing activities. 
+
+
+```
+Educational tip:
+```
+
+we should represent the concept of an activity using an interface. Each activity should have a method called Execute(). The workﬂow engine does not care about the concrete implementation of activities. All it cares about is that these activities have a common interface: they provide a method called Execute(). The engine simply calls this method and this way it executes a series of activities in sequence. The aim of this exercise is to help you understand how you can use interfaces to design extensible applications. You change the behaviour of your application by creating new classes, rather than changing the existing classes. You’ll also see polymorphic behaviour of interfaces. 
+
+```
+Real-world use case:
+```
+
+in a real-world application you may use a workﬂow in a scenario like the following: 
+*  Upload a video to a cloud storage. 
+*  Call a web service provided by a third-party video encoding service to tell them you have a video ready for encoding. 
+*  Send an email to the owner of the video notifying them that the video started processing. 
+*  Change the status of the video record in the database to “Processing”. Each of these steps can be represented by an activity. For the purpose of this exercise, do not worry about these complexities. Simply use Console.WriteLine() in each of your activity classes. Your focus should be on sending a workﬂow to the workﬂow engine and having it run the workﬂow and all the activities inside it. We don’t care about the actual activities. 
