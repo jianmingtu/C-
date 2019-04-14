@@ -13,7 +13,7 @@ namespace Udemy.Stack
             _stack = new List<Object>();
         }
 
-        public void Push(Object v)
+        public void Push(object v)
         {
             if (v == null)
             {
