@@ -11,12 +11,14 @@ namespace video
     {
         static void Main(string[] args)
         {
+            var workFlow = new WorkFlow();
+            workFlow.AddActivity(new UploadVedioToCloud());
+            workFlow.AddActivity(new NotifyDatabase());
+            workFlow.AddActivity(new SendEmail());
+            workFlow.AddActivity(new NotifyDatabase());
+
             var workFlowEngine = new WorkFlowEngine();
-            workFlowEngine.AddActivity(new UploadVedioToCloud());
-            workFlowEngine.AddActivity(new NotifyDatabase());
-            workFlowEngine.AddActivity(new SendEmail());
-            workFlowEngine.AddActivity(new NotifyDatabase());
-            workFlowEngine.Run();
+            workFlowEngine.Run(workFlow);
         }
     }
 }
